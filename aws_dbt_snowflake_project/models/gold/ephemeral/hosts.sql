@@ -2,7 +2,7 @@
 
 WITH HOSTS AS
 (
-    SELECT 
+    SELECT DISTINCT
         HOST_ID,
         HOST_NAME,
         HOST_SINCE,

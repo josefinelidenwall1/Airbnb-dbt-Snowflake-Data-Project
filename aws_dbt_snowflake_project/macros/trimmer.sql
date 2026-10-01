@@ -1,3 +1,3 @@
-{% macro trimmer(column_name, node) %}
-    {{ col_name | trim | upper }}
+{% macro trimmer(column_name) %}
+    UPPER(TRIM({{ column_name }}))
 {% endmacro %}

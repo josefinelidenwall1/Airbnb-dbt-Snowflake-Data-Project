@@ -1,1 +1,1 @@
-SELECT * FROM {{ref('obt')}}
+SELECT {{ trimmer('HOST_NAME') }} AS HOST_NAME FROM {{ ref('bronze_hosts') }}
